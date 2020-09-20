@@ -12,9 +12,28 @@ p{
 
 /* Formatação de imagem */
 
+#ap_1{
+    position: relative;
+    top: -170px;
+    left: 750px;
+   
+}
+
+#ap_2{
+    position: relative;
+    left: 700px;
+    top: -300px;
+}
+
+#ap_3{
+    position: relative;
+    left: 240px;
+    top: 50px;
+}
+
 #cabecalho{
     position: relative;
-    background-color: blue;
+    background-color: rgb(84, 84, 240);
     top: -50px;
     size: 100px;
     height: 120px;
@@ -58,15 +77,24 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     top: 10px;
-    left: 1350px;
+    left: 1280px;
     text-align: right;
+    font-weight: bolder;
 }
 nav#menu li{
+    
     display: inline-block;
-    background-color:#dddddd;
+    font-family: sans-serif;
+    background-color:#faf2f2;
     padding: 15px;
     margin: 2px;
+    border-radius: 20px;
+    padding: 22px;
+    box-shadow: 1px 1px 20px 0px #000000;
     transition: background-color 1s;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
 }
 
 nav#menu li:hover {
